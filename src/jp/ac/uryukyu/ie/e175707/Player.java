@@ -14,13 +14,13 @@ public class Player{
         input = in.nextLine(); 
 
         switch (input) {
-            case "ぐう":
+            case "グー":
                 pon1 = rock;
                 break;
-            case "ちょき":
+            case "チョキ":
                 pon1 = scissors;
                 break;
-            case "ぱあ":
+            case "パー":
                 pon1 = paper;
                 break;
             default:

@@ -15,17 +15,17 @@ public class Main {
 
             if (p1.getPon1() ==p1.getRock() && p2.getPon2()==p2.getScissors()){
                 System.out.println("Player2は"+p2.getHand2()+"を出しました");
-                System.out.println("君の勝ちです");
+                System.out.println("あなたの勝ちです");
             }
 
             else if (p1.getPon1() ==p1.getScissors() && p2.getPon2()==p2.getPaper()){
                 System.out.println("Player2は"+p2.getHand2()+"を出しました");
-                System.out.println("君の勝ちです");
+                System.out.println("あなたの勝ちです");
             }
 
             else if (p1.getPon1() ==p1.getPaper() && p2.getPon2()==p2.getRock()){
                 System.out.println("Player2は"+p2.getHand2()+"を出しました");
-                System.out.println("君の勝ちです");
+                System.out.println("あなたの勝ちです");
             }
 
             else if (p1.getPon1() == p2.getPon2()){
@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("あいこで");
             }
             else if (p1.getPon1()==-1){
-                System.out.println("るーるをまもろう");
+                System.out.println("もう一度");
             }
 
             else {
