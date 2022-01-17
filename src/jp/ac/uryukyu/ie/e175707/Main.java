@@ -38,7 +38,7 @@ public class Main {
 
             else {
                 System.out.println("Player2は"+p2.getHand2()+"を出しました");
-                System.out.println("Player2は勝利した");
+                System.out.println("あなたの負けです");
             }
         }
     }
